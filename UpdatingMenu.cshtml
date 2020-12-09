@@ -1,0 +1,91 @@
+﻿
+@{
+    ViewBag.Title = "UpdatingMenu";
+    Layout = "~/Views/_LayoutPage1.cshtml";
+}
+
+<form id="form1" runat="server">
+    <div>
+
+        <h1>Menu Updation</h1>
+
+
+        <table class="auto-style1">
+            <tr>
+                <td>Day </td>
+                <td>
+                    <label for="day"></label>
+
+                    <select name="day" id="day">
+                        <option value="Select">Select</option>
+                        <option value="Monday">Monday</option>
+                        <option value="Tuesday">Tuesday</option>
+                        <option value="Wednesday">Wednesday</option>
+                        <option value="Thursday">Thursday</option>
+                        <option value="Friday">Friday</option>
+                        <option value="Saturday">Satuday</option>
+                        <option value="Sunday">Sunday</option>
+                        
+
+                    </select>
+
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+                <td>Time </td>
+                <td>
+                    <label for="time"></label>
+
+                    <select name="time" id="time">
+                        <option value="Select">Select</option>
+                        <option value="Breakfast">Breakfast</option>
+                        <option value="Lunch">Lunch</option>
+                        <option value="Evening">Evening</option>
+                        <option value="Dinner">Dinner</option>
+                        
+
+
+                    </select>
+
+
+            </tr>
+            <tr>
+                <td>Type </td>
+                <td>
+                    <label for="type"></label>
+
+                    <select name="type" id="type">
+                        <option value="Select">Select</option>
+                        <option value="Veg">Veg</option>
+                        <option value="NonVeg">Non-Veg</option>
+                        
+
+
+                    </select>
+<tr>
+                <td>Price </td>
+                <td>
+                    <input type="text" name="price" placeholder="Enter price" required="" />
+
+                </td>
+
+           
+            <tr>
+                <td>
+                    <button type="button">Submit</button>
+                </td>
+            </tr>
+        </table>
+
+
+
+
+    </div>
+</form>
+
+

@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewBag.Title = "NoticeBoard";
+    Layout = "~/Views/_LayoutPage1.cshtml";
+}
+
+<form id="form3" runat="server">
+    <div>
+
+        <h1>Notice Board</h1>
+
+
+        <table class="auto-style1">
+            <tr>
+                <td>Notice Id </td>
+                <td>
+                    <input type="text" name="NoticeId" placeholder="Enter Notice Id" required="" />
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+                <td>Title</td>
+                <td>
+                    <input type="text" name="title" placeholder="Enter Title" required="" />
+                </td>
+
+            </tr>
+            <tr>
+                <td>Content</td>
+                <td>
+                    <label for="content"></label>
+
+<textarea id="content" name="content" rows="5" cols="50">
+</textarea>
+                    
+                </td>
+
+            </tr>
+
+ <tr>
+                <td>
+                    <button type="button">Submit</button>
+                </td>
+            </tr>
+        </table>
+
+
+
+
+    </div>
+</form>
+
+
+
+
+

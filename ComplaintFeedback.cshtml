@@ -1,0 +1,79 @@
+﻿
+@{
+    ViewBag.Title = "ComplaintFeedback";
+    Layout = "~/Views/_LayoutPage1.cshtml";
+}
+<form id="form3" runat="server">
+    <div>
+
+        <h1>Complaint And Feedback</h1>
+
+
+        <table class="auto-style1">
+            <tr>
+                <td>Complaint/Feedback Id </td>
+                <td>
+                    <input type="text" name="cf" placeholder="Enter Id" required="" />
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>Date Of Complaint/Feedback </td>
+                <td>
+                    <label for="dcf"></label>
+                    <input type="date" id="dcf" name="dcf">
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>Type</td>
+                <td>
+                    <label for="ComplaintFeedback"></label>
+
+                    <select name="cf" id="cf">
+                        <option value="Select">Select</option>
+                        <option value="Complaint">Complaint</option>
+                        <option value="Feedback">Feedback</option>
+
+                      
+
+                    </select>
+
+                </td>
+
+
+
+          
+            <tr>
+                <td>Content</td>
+                <td>
+                    <label for="content"></label>
+
+<textarea id="content" name="content" rows="5" cols="50">
+</textarea>
+
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <button type="button">Submit</button>
+                </td>
+            </tr>
+        </table>
+
+
+
+
+    </div>
+</form>
+
+
+
+
+
+
+
